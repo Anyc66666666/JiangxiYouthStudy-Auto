@@ -8,6 +8,7 @@
 原理如下：
 
 POST： http://osscache.vol.jxmfkj.com/pub/vol/volClass/join?accessToken=
+
 param/json：{"course":"1","subOrg":null,"nid":"N0013************","cardNo":"姓名+学号"}
 
 course --> 青年大学习的学习期数 --> http://osscache.vol.jxmfkj.com/html/assets/js/course_data.js   (查询最新青年大学习期数)
