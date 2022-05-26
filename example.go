@@ -40,23 +40,22 @@ c.Start()
 }
 
 func GetLatest()(id string){
-	resp,err:=http.Get("http://osscache.vol.jxmfkj.com/html/assets/js/course_data.js")
-	if err!=nil{fmt.Println("get failed,err:",err)}
+	resp,err:=http.Get("http://www.jxqingtuan.cn/pub/vol/volClass/current")
+if err!=nil{
+		fmt.Println(err)
+		return
+	}
 	defer resp.Body.Close()
-
-	b,err:=ioutil.ReadAll(resp.Body)
-	if err!=nil{fmt.Println("read body failed,err:",err)}
-//	fmt.Println(string(b))
-m:=strings.Split(string(b),":")[2]
-id=strings.Split(m,"\"")[1]
-//id=strings.TrimSpace(id)
-fmt.Println(id)
-return id
+	b,_:=ioutil.ReadAll(resp.Body)
+	fmt.Println(string(b))
+	c:=strings.Split(string(b),"\"")[5]
+	fmt.Println(c)
+	return c
 
 }
 
 func PostQNDXX(id,nid,cardNo string){
-	url:="http://osscache.vol.jxmfkj.com/pub/vol/volClass/join?accessToken="
+	url:="http://www.jxqingtuan.cn/pub/vol/volClass/join?accessToken="
 	client:=&http.Client{}
 	param:=fmt.Sprintf(`{"course":"%v","subOrg":null,"nid":"%v","cardNo":"%v"}`,id,nid,cardNo)
 
