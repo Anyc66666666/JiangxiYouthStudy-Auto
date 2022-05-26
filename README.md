@@ -8,14 +8,14 @@
 
 原理如下：
 
-POST： http://osscache.vol.jxmfkj.com/pub/vol/volClass/join?accessToken=
+POST： http://www.jxqingtuan.cn/pub/vol/volClass/join?accessToken=
 
 param/json：{"course":"1","subOrg":null,"nid":"N0013************","cardNo":"姓名+学号"}
 
-course --> 青年大学习的学习期数 --> http://osscache.vol.jxmfkj.com/html/assets/js/course_data.js   (查询最新青年大学习期数)
+course --> 青年大学习的学习期数 --> http://www.jxqingtuan.cn/html/assets/js/course_data.js   (查询最新青年大学习期数)
 
-nid --> 江西省高校学院专业班级对应的团委组织所特有的nid号，以N0013开头.
-            -->http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N0013 访问链接即可一步步找到自己对应的组织nid号
+nid --> 江西省高校学院专业班级对应的团委组织所特有的nid号，如：南昌市高校以N0013开头.  其他的可能是N0012 N0014 等等
+            -->http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N0013 访问链接即可一步步找到自己对应的组织nid号
             
 cardNo --> 填个人信息，姓名+学号
 
