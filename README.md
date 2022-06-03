@@ -18,7 +18,7 @@ course --> 青年大学习的学习期数 --> http://www.jxqingtuan.cn/html/asse
 
 nid --> 江西省高校学院专业班级对应的团委组织所特有的nid号，如：南昌市高校以N0013开头.  其他的可能是N0012 N0014 等等
             -->http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N0013 访问链接即可一步步找到自己对应的组织nid号
-            完整的nid是 字母N 加上 16个数字. 每四个数字对应 高校，学院，专业，班级
+     完整的nid是 字母N 加上 16个数字. 每四个数字对应 高校，学院，专业，班级
             
 cardNo --> 填个人信息，姓名+学号
 
