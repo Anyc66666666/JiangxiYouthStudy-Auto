@@ -14,6 +14,7 @@ param/json(body-raw-json)：{"course":"1","subOrg":null,"nid":"N0013************
 
 
 course --> 青年大学习的学习期数 --> http://www.jxqingtuan.cn/html/assets/js/course_data.js   (查询最新青年大学习期数)
+      http://www.jxqingtuan.cn/pub/vol/volClass/current 也可以查询当前青年大学习的期数
 
 nid --> 江西省高校学院专业班级对应的团委组织所特有的nid号，如：南昌市高校以N0013开头.  其他的可能是N0012 N0014 等等
             -->http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N0013 访问链接即可一步步找到自己对应的组织nid号
